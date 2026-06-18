@@ -58,7 +58,7 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold tracking-tighter">
-              <span className="text-gradient">KN</span>
+              <span className="text-gradient">K</span>
             </Link>
           </div>
 

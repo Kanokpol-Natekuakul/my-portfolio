@@ -91,7 +91,7 @@ export function Hero() {
             <div className="relative w-full h-full rounded-full p-2 bg-gradient-to-tr from-primary-500/50 to-primary-700/50 backdrop-blur-sm">
               <div className="w-full h-full rounded-full bg-background overflow-hidden relative">
                 <Image
-                  src="/avatar-placeholder.png"
+                  src="/pic.jpg"
                   alt="Kanokpol Natekuakul"
                   fill
                   className="object-cover"

@@ -15,7 +15,7 @@ export function Footer() {
           
           <div className="text-center md:text-left">
             <div className="text-2xl font-bold tracking-tighter mb-2">
-              <span className="text-gradient">KN</span>
+              <span className="text-gradient">K</span>
             </div>
             <p className="text-sm text-foreground/60">
               © {new Date().getFullYear()} Kanokpol Natekuakul. All rights reserved.
