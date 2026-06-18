@@ -1,0 +1,124 @@
+{
+  "Hero": {
+    "title": "IT Support / QA Tester",
+    "tagline": "I ensure software quality through testing, automation, and attention to detail — delivering reliable systems you can trust.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "downloadResume": "Download Resume"
+  },
+  "About": {
+    "heading": "About Me",
+    "intro": "I am a dedicated IT Support and QA Tester with a strong passion for Web Development. I bridge the gap between technical requirements and business expectations by delivering high-quality, bug-free applications. With a foundation in manual and automated testing, I strive to continuously improve development lifecycles.",
+    "cards": {
+      "qa": { "title": "Quality Assurance", "desc": "Thorough testing & bug detection" },
+      "auto": { "title": "Automation Skills", "desc": "Selenium, Playwright, Robot Framework" },
+      "detail": { "title": "Detail Oriented", "desc": "Precise documentation & test cases" },
+      "team": { "title": "Team Player", "desc": "Cross-team coordination & communication" }
+    }
+  },
+  "Skills": {
+    "heading": "Technical Skills",
+    "categories": {
+      "testing": "Testing & QA",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "tools": "Tools & Platforms",
+      "others": "Methodologies"
+    }
+  },
+  "Projects": {
+    "heading": "Featured Projects",
+    "github": "Source Code",
+    "live": "Live Demo",
+    "items": {
+      "selenium": {
+        "title": "Selenium Automation Framework",
+        "description": "Automated testing suite built with Robot Framework and Selenium for reliable end-to-end testing."
+      },
+      "playwright": {
+        "title": "E-commerce E2E Testing",
+        "description": "Comprehensive E2E testing for an e-commerce platform utilizing Playwright and TypeScript."
+      },
+      "testerExam": {
+        "title": "Automated Tester Exam",
+        "description": "TypeScript-based automated testing scripts demonstrating advanced QA practices."
+      },
+      "smallSchool": {
+        "title": "Small School Application",
+        "description": "A full-stack web application for school management built with Next.js and TypeScript."
+      },
+      "urlShortener": {
+        "title": "URL Shortener",
+        "description": "A fast and responsive URL shortening service developed using TypeScript and Next.js."
+      },
+      "resumeRewriter": {
+        "title": "Resume Rewriter",
+        "description": "An AI-powered tool to rewrite and enhance resumes, built on Next.js."
+      },
+      "portfolio": {
+        "title": "Personal Portfolio",
+        "description": "This premium portfolio website, showcasing modern web design with glassmorphism."
+      }
+    }
+  },
+  "Services": {
+    "heading": "What I Do",
+    "items": {
+      "testing": { "title": "Manual Testing", "description": "Comprehensive test case design and execution." },
+      "design": { "title": "UI/UX Design", "description": "Creating mockups and interfaces via Figma." },
+      "support": { "title": "IT Support", "description": "Technical support and troubleshooting." },
+      "web": { "title": "Web Development", "description": "Building responsive and modern websites." },
+      "docs": { "title": "Documentation", "description": "Crafting precise user manuals and test documents." },
+      "analysis": { "title": "Requirements Analysis", "description": "Bridging business and technical expectations." },
+      "automated": { "title": "Automated Testing", "description": "Scripting tests with Playwright and Selenium." }
+    }
+  },
+  "Experience": {
+    "heading": "Professional Experience",
+    "items": {
+      "arise": {
+        "period": "Nov 2025 – Present",
+        "role": "IT Support / Tester",
+        "points": [
+          "Microsoft Office IT Support for internal clients.",
+          "Zentr Project: Designed test scenarios, manual testing, UI mockups, and created user manuals.",
+          "Baking Buddy: Conducted UAT, UI design in Figma, product demos, and created testing documentation."
+        ]
+      },
+      "emerchant": {
+        "period": "Mar 2025 – Oct 2025",
+        "role": "Data Prepare (Intern)",
+        "points": [
+          "Verified parameters and added campaigns into the EDC system.",
+          "Confirmed automated system parameters and corrected Estate data to align with MIS.",
+          "Completed multiple software reprogramming and campaign projects."
+        ]
+      }
+    }
+  },
+  "Contact": {
+    "heading": "Get In Touch",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!"
+    },
+    "info": {
+      "email": "Email",
+      "line": "LINE ID",
+      "github": "GitHub",
+      "facebook": "Facebook"
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  }
+}

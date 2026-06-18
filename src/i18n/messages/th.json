@@ -1,0 +1,124 @@
+{
+  "Hero": {
+    "title": "IT Support / QA Tester",
+    "tagline": "ผมควบคุมคุณภาพซอฟต์แวร์ผ่านการทดสอบ, Automation และความใส่ใจในรายละเอียด เพื่อส่งมอบระบบที่เชื่อถือได้",
+    "viewProjects": "ดูผลงาน",
+    "contactMe": "ติดต่อผม",
+    "downloadResume": "ดาวน์โหลดเรซูเม่"
+  },
+  "About": {
+    "heading": "เกี่ยวกับผม",
+    "intro": "ผมเป็น IT Support และ QA Tester ที่หลงใหลในการพัฒนา Web Development ผมทำหน้าที่เชื่อมรอยต่อระหว่างความต้องการทางธุรกิจกับเทคนิค เพื่อส่งมอบแอปพลิเคชันที่มีคุณภาพและไร้บั๊ก ด้วยพื้นฐานทั้ง manual และ automated testing ผมมุ่งมั่นที่จะพัฒนากระบวนการสร้างซอฟต์แวร์ให้ดียิ่งขึ้นเสมอ",
+    "cards": {
+      "qa": { "title": "Quality Assurance", "desc": "ตรวจสอบและค้นหาบั๊กอย่างละเอียด" },
+      "auto": { "title": "Automation Skills", "desc": "Selenium, Playwright, Robot Framework" },
+      "detail": { "title": "Detail Oriented", "desc": "เขียนเอกสารและ Test Case แม่นยำ" },
+      "team": { "title": "Team Player", "desc": "ประสานงานร่วมกับทีมนักพัฒนาได้ดีเยี่ยม" }
+    }
+  },
+  "Skills": {
+    "heading": "ทักษะและความเชี่ยวชาญ",
+    "categories": {
+      "testing": "Testing & QA",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "tools": "Tools & Platforms",
+      "others": "Methodologies"
+    }
+  },
+  "Projects": {
+    "heading": "ผลงานเด่น",
+    "github": "ซอร์สโค้ด",
+    "live": "ดูเว็บไซต์จริง",
+    "items": {
+      "selenium": {
+        "title": "Selenium Automation Framework",
+        "description": "ชุดทดสอบอัตโนมัติที่สร้างด้วย Robot Framework และ Selenium เพื่อการทดสอบ E2E ที่เสถียร"
+      },
+      "playwright": {
+        "title": "E-commerce E2E Testing",
+        "description": "การทดสอบ E2E แบบครอบคลุมสำหรับแพลตฟอร์มอีคอมเมิร์ซโดยใช้ Playwright และ TypeScript"
+      },
+      "testerExam": {
+        "title": "Automated Tester Exam",
+        "description": "สคริปต์ทดสอบอัตโนมัติด้วย TypeScript ที่แสดงถึงแนวปฏิบัติทาง QA ขั้นสูง"
+      },
+      "smallSchool": {
+        "title": "Small School Application",
+        "description": "เว็บแอปพลิเคชันจัดการโรงเรียนแบบ Full-stack สร้างด้วย Next.js และ TypeScript"
+      },
+      "urlShortener": {
+        "title": "URL Shortener",
+        "description": "บริการย่อลิงก์ที่รวดเร็วและรองรับทุกหน้าจอ พัฒนาด้วย TypeScript และ Next.js"
+      },
+      "resumeRewriter": {
+        "title": "Resume Rewriter",
+        "description": "เครื่องมือ AI สำหรับช่วยเขียนและปรับปรุงเรซูเม่ สร้างบน Next.js"
+      },
+      "portfolio": {
+        "title": "Personal Portfolio",
+        "description": "เว็บไซต์พอร์ตโฟลิโอระดับพรีเมียมนี้ โชว์ดีไซน์เว็บสมัยใหม่สไตล์ Glassmorphism"
+      }
+    }
+  },
+  "Services": {
+    "heading": "บริการของผม",
+    "items": {
+      "testing": { "title": "Manual Testing", "description": "ออกแบบและรัน Test Case อย่างครอบคลุม" },
+      "design": { "title": "UI/UX Design", "description": "สร้าง Mockup และหน้าจอผ่าน Figma" },
+      "support": { "title": "IT Support", "description": "แก้ไขปัญหาและให้ความช่วยเหลือด้านเทคนิค" },
+      "web": { "title": "Web Development", "description": "สร้างเว็บไซต์ที่ทันสมัยและ Responsive" },
+      "docs": { "title": "Documentation", "description": "เขียนคู่มือผู้ใช้และเอกสารการทดสอบที่ชัดเจน" },
+      "analysis": { "title": "Requirements Analysis", "description": "เชื่อมความเข้าใจระหว่างธุรกิจและผู้พัฒนา" },
+      "automated": { "title": "Automated Testing", "description": "เขียนสคริปต์ทดสอบด้วย Playwright และ Selenium" }
+    }
+  },
+  "Experience": {
+    "heading": "ประสบการณ์ทำงาน",
+    "items": {
+      "arise": {
+        "period": "พ.ย. 2025 – ปัจจุบัน",
+        "role": "IT Support / Tester",
+        "points": [
+          "สนับสนุนและแก้ปัญหา Microsoft Office ให้กับผู้ใช้ภายใน",
+          "โปรเจกต์ Zentr: ออกแบบ Test Scenario, ทดสอบแบบ Manual, สร้าง UI Mockup และเขียนคู่มือผู้ใช้",
+          "Baking Buddy: ทำ UAT, ออกแบบ UI ด้วย Figma, นำเสนอโปรเจกต์ และสร้างเอกสารทดสอบ"
+        ]
+      },
+      "emerchant": {
+        "period": "มี.ค. 2025 – ต.ค. 2025",
+        "role": "Data Prepare (นักศึกษาฝึกงาน)",
+        "points": [
+          "ตรวจสอบพารามิเตอร์และเพิ่มแคมเปญลงในระบบ EDC",
+          "ยืนยันพารามิเตอร์ระบบ Automate และแก้ไขข้อมูล Estate ให้ตรงกับ MIS",
+          "ดำเนินการโปรเจกต์ปรับปรุงซอฟต์แวร์และแคมเปญต่างๆ จนสำเร็จ"
+        ]
+      }
+    }
+  },
+  "Contact": {
+    "heading": "ช่องทางติดต่อ",
+    "form": {
+      "name": "ชื่อของคุณ",
+      "email": "อีเมลของคุณ",
+      "message": "ข้อความของคุณ",
+      "submit": "ส่งข้อความ",
+      "sending": "กำลังส่ง...",
+      "success": "ส่งข้อความสำเร็จ!"
+    },
+    "info": {
+      "email": "อีเมล",
+      "line": "LINE ID",
+      "github": "GitHub",
+      "facebook": "Facebook"
+    }
+  },
+  "Nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "skills": "ทักษะ",
+    "projects": "ผลงาน",
+    "services": "บริการ",
+    "contact": "ติดต่อ"
+  }
+}
