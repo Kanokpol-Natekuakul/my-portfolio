@@ -74,13 +74,13 @@ export const portfolioData = {
       tech: ["Next.js", "AI"],
       github: "https://github.com/Kanokpol-Natekuakul/rewite_resume"
     },
-    {
-      id: "portfolio",
-      titleKey: "Projects.items.portfolio.title",
-      descKey: "Projects.items.portfolio.description",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/Kanokpol-Natekuakul/Kanokpol-Natekuakul"
-    }
+    // {
+    //   id: "portfolio",
+    //   titleKey: "Projects.items.portfolio.title",
+    //   descKey: "Projects.items.portfolio.description",
+    //   tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    //   github: "https://github.com/Kanokpol-Natekuakul/Kanokpol-Natekuakul"
+    // }
   ],
   services: [
     { icon: "ShieldCheck", titleKey: "Services.items.testing.title", descKey: "Services.items.testing.description" },

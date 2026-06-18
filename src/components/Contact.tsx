@@ -13,19 +13,54 @@ export function Contact() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Mock submit
-    setTimeout(() => {
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+    
+    if (!accessKey) {
+      console.warn("Web3Forms Access Key is missing. Falling back to mock submission.");
+      setTimeout(() => {
+        setIsSubmitting(false);
+        setIsSuccess(true);
+        setFormData({ name: "", email: "", message: "" });
+        setTimeout(() => setIsSuccess(false), 3000);
+      }, 1500);
+      return;
+    }
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify({
+          access_key: accessKey,
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: `New Message from Portfolio: ${formData.name}`
+        })
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setIsSuccess(true);
+        setFormData({ name: "", email: "", message: "" });
+        setTimeout(() => setIsSuccess(false), 3000);
+      } else {
+        console.error("Submission failed", result);
+        alert(t("form.error"));
+      }
+    } catch (error) {
+      console.error("Error submitting form", error);
+      alert(t("form.error"));
+    } finally {
       setIsSubmitting(false);
-      setIsSuccess(true);
-      setFormData({ name: "", email: "", message: "" });
-      
-      // Hide toast after 3s
-      setTimeout(() => setIsSuccess(false), 3000);
-    }, 1500);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
